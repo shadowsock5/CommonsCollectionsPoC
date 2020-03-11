@@ -1,5 +1,6 @@
 package com.cqq;
 
+/* 依赖Apache CommonsCollections库  较低版本的jdk，比如1.8.0；jdk1.8.0_172的AnnotationInvocationHandler代码不一样，无法触发*/
 import org.apache.commons.collections.Transformer;
 import org.apache.commons.collections.functors.ChainedTransformer;
 import org.apache.commons.collections.functors.ConstantTransformer;
